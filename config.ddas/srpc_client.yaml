@@ -1,0 +1,9 @@
+# 客户端名称, 格式为{业务线}.{程序名}
+client: demo.dartman-demo-client
+# 程序所在节点
+node_id: 1
+# etcd集群配置
+etcd_host:
+  - http://localhost:2379
+# 网卡名称, 默认为eth0
+network_interface: eno1
